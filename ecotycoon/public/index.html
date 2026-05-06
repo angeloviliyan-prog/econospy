@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoTycoon - Select Role</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="stars"></div>
+
+  <div class="container">
+    <div class="index-page">
+      <div class="hero">
+        <h1 class="title">🎮 EcoTycoon</h1>
+        <p class="subtitle">Claim Your Territory</p>
+        <p style="color: #cbd5e1; margin-bottom: 40px;">Интерактивна образователна игра по икономика на предприятието</p>
+        
+        <div class="choice-buttons">
+          <a href="teacher.html" class="btn-teacher">
+            <div class="btn-icon">👨‍🏫</div>
+            <div class="btn-text">Учител</div>
+            <div class="btn-desc">Управление на игра</div>
+          </a>
+          <a href="student.html" class="btn-student">
+            <div class="btn-icon">👨‍🎓</div>
+            <div class="btn-text">Ученик</div>
+            <div class="btn-desc">Играй в игра</div>
+          </a>
+        </div>
+
+        <div class="info-box" style="margin-top: 40px; background: rgba(37, 99, 235, 0.15); border-color: rgba(37, 99, 235, 0.5);">
+          <h4 style="color: #06b6d4; margin-bottom: 12px;">🎯 Как работи:</h4>
+          <ul style="font-size: 0.95em; line-height: 1.8;">
+            <li>📚 <strong>Учител:</strong> Създава игра, генерира код, управлява дуелите</li>
+            <li>🎮 <strong>Ученик:</strong> Влиза с код, завладява регионе, отговаря на въпроси</li>
+            <li>🗺️ <strong>Карта:</strong> България разделена на 6 региона</li>
+            <li>⚔️ <strong>Дуели:</strong> 60 секунди, въпроси по икономика</li>
+            <li>💰 <strong>Икономика:</strong> Капитал, доход, инвестиции</li>
+            <li>🏆 <strong>Цел:</strong> Завладей всички регионе и печели</li>
+          </ul>
+        </div>
+
+        <div style="margin-top: 40px; padding: 20px; background: rgba(6, 182, 212, 0.1); border: 1px solid rgba(6, 182, 212, 0.3); border-radius: 8px;">
+          <p style="color: #cbd5e1; text-align: center; font-size: 0.9em;">
+            Сървър работи на: <strong style="color: #06b6d4;">localhost:3000</strong>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+</body>
+</html>
